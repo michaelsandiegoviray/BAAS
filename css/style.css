@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+  width: 80px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+img {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px;
+  width: 500px;
+}
